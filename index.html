@@ -15,15 +15,20 @@
     <h1>AI English Poem generator</h1>
      </header>
      <main>
+        <div class="form-wrapper">
         <form id="poem-generator-form">
             <input type="text" placeholder="Enter the topic of poem" 
             autofocus required autocomplete="off"
             class="prompt" id="user-prompt"/>
         <input type="submit" class="submitbtn"/>
         </form>
-        <div class="poem" id="poem">
-            
+        <div class="hint">i.e love, flower, faith, honesty</div>    
+    </div>
+        
+        <div class="poem" class="hidden" id="poem">
+                     
         </div>
+        
      </main>
     
     <footer>
