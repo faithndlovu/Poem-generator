@@ -1,6 +1,6 @@
 body{
     background-color: #f8f0e3; 
-    background-image: url("cover.png");
+    background-image: url("paper-texture.png");
     background-size: cover;
      font-family: 'Times New Roman', Times, serif;
 }
@@ -72,7 +72,7 @@ font-size: 16px;
 
 .poem{
     font-size: 16px;
-    background-image: url("paper-texture.png");
+    background-image: url("paper.png");
     background-size: cover;
     padding: 20px;
     line-height: 24px;
