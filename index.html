@@ -7,15 +7,19 @@
     <title>AI English Poem Generator</title>
 </head>
 <body>
-     <header>
+<div class="container">
+
+    <header>
     <h1>AI English Poem generator</h1>
      </header>
      <main>
         <form>
-            <input type="text" placeholder="enter the topic of poem" autofocus required autocomplete="off"/>
-        <input type="submit"/>
+            <input type="text" placeholder="Enter the topic of poem" 
+            autofocus required autocomplete="off"
+            class="prompt"/>
+        <input type="submit" class="submitbtn"/>
         </form>
-        <div>
+        <div class="poem">
             Poem
             <br/>
             Poem
@@ -26,8 +30,10 @@
         This AI project was coded by 
         <a href="https://github.com/faithndlovu" target="_blank">Faith L Ndlovu</a> and is 
         <a href="https://github.com/faithndlovu/Poem-generator" target="_blank">open-sourced on Github</a> 
-        and <a href="/" target="_blank">on Netlify</a>
+        and <a href="https://poemgeneratorpr.netlify.app/?" target="_blank">on Netlify</a>
     </footer>
+</div>
     <script src="src/index.js" ></script>
+
 </body>
 </html>
