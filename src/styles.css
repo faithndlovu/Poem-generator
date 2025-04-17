@@ -25,7 +25,7 @@ header{
 .form-wrapper{
     padding: 30px;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.8);
-    background-color: white;
+    background-color:#f8f0e3;
     border-radius: 10px;
     margin-bottom: 30px;
 }
@@ -71,7 +71,7 @@ font-size: 16px;
 
 .poem{
     font-size: 16px;
-    background-image: url("paper.png");
+    background-image: url("pic.png");
     background-size: cover;
     padding: 20px;
     line-height: 24px;
